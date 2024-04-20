@@ -1,10 +1,10 @@
 model_list:
   - model_name: command-r-plus
     litellm_params:
-      model: command-r-plus
+      model: cohere/command-r-plus
   - model_name: command-r
     litellm_params:
-      model: command-r
+      model: cohere/command-r
 
 litellm_settings:
   drop_params: True
